@@ -12,9 +12,11 @@ namespace MyCoreApp.Pages
             _logger = logger;
         }
 
+        public string Greeting { get; set; }
+
         public void OnGet()
         {
-
+            Greeting = "Hello Sarah, Welcome!";
         }
     }
 }
